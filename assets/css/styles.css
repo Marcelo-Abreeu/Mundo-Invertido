@@ -430,10 +430,16 @@ footer::after {
   .header-content {
     padding: 80px 19px;
 }
+.header-content p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
   section {
     display: flex;
     margin-bottom: 95px;
     flex-direction: column;
+    justify-content: center;
     }
     #section-inverted-world .section-texts {
       width: 100%;
@@ -446,14 +452,12 @@ footer::after {
 .section-texts > p {
   width: 100%;
   margin-bottom: 20px;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  text-align: center;
 }
 
   h1, h2, h3 {
-    font-family: var(--featured-font-family);
     font-size: 41px;
-    color: var(--primary-color);
-    text-transform: uppercase;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -470,15 +474,17 @@ footer::after {
 }
 #section-stranger-things-gallery .gallery-container {
   display: flex;
-  padding: 10px 50px;
   flex-direction: column;
+  align-items: center;
+  padding: 0px;
 }
 #section-stranger-things-gallery .container h2 {
-  width: 340px;
+  width: 100%;
   font-size: 25px;
+  text-align: center;
 }
 #section-form h2 {
-  width: 350px;
+  width: 100%;
 }
 p{
   width: 320px;
