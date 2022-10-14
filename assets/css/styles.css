@@ -423,10 +423,12 @@ footer::after {
   right: -50px;
   transform: rotateZ(10deg);
 }
-
 /*RESPONSIVO MOBILE*/
 
 @media screen and (max-width: 400px) {
+  .world-characters#bottom-characters {
+    height: 280px;
+    }
   .header-content {
     padding: 80px 19px;
 }
