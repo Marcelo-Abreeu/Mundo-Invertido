@@ -486,7 +486,7 @@ footer::after {
 #section-form h2 {
   width: 100%;
 }
-p{
+.container > p{
   width: 320px;
 }
 
